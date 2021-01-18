@@ -1,0 +1,75 @@
+﻿<!--Miles Paulson Section 004 group 12-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Miles' Website</title>
+    <!--linking my css sheet and getting my website icon-->
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+</head>
+<body>
+    <center>
+        <h2>Hi! My name is Miles Paulson welcome to this website!</h2>
+        <img src="../img/62904176700__E04B7BB4-C3F6-4CD4-A1BE-D070A76B919D.jpg" width="750" height="500" />
+        <br />
+        <p>I am very excited to take this class and be able to add to my arsenal of coding skill, I feel as though i have been able to learn a lot of skills 
+        up to this point and want to implement MVC and ASP.net into my repetoire of skills. I also am hyped to do more Javascript cause I really enjoyed learning it in 
+        IS 303. I would be way down to do some python again cause I also really enjoyed learning and applying python django into building a website but I suppose we will see
+        what happens this semsester!</p>
+        <br />
+        <br />
+        <!--This is my unordered list of my top three jobs-->
+        <b>These are my top three potential jobs as of right now!</b>
+    </center>
+    <ul id="job">
+        <li> CyberSecurity Analyst</li>
+        <li> Data Scientist</li>
+        <li> AI Developer</li>
+    </ul>
+    <br />
+    <center>
+        <form>
+           
+               <!--This is the form asking for each percentage of the grades for each section-->
+                <label>What percent did you get on your assignments:</label>
+                <br />
+                <input type="number" id="assignment" />
+                <br />
+                <br />
+                <label>What percent did you get on your group projects:</label>
+                <br />
+                <input type="number" id="projects" />
+                <br />
+                <br />
+                <label>What percent did you get on your quizzes:</label>
+                <br />
+                <input type="number" id="quiz" />
+                <br />
+                <br />
+                <label>What percent did you get on your exams:</label>
+                <br />
+                <input type="number" id="exam" />
+                <br />
+                <br />
+                <label>What percent did you get on INTEX:</label>
+                <br />
+                <input type="number" id="intex" />
+                <br />
+                <br />
+
+            
+        </form>
+        <input type="submit" value="Calculate Grade" id="submitButton" />
+        <!--THis is where i am outputting the letter grade and the GPA-->
+        <p id="outputLet" class="outputLet"><br></p>
+        <p id="outputNum" class="outputNum"><br></p>
+
+        <script src="../js/main.js"></script>
+
+    </center>
+
+
+
+</body>
+</html>

@@ -29,7 +29,7 @@
     </ul>
     <br />
     <center>
-        <form>
+        <form onsubmit="return false">
            
                <!--This is the form asking for each percentage of the grades for each section-->
                 <label>What percent did you get on your assignments:</label>
@@ -57,10 +57,10 @@
                 <input type="number" id="intex" />
                 <br />
                 <br />
-
+                <input type="submit" value="Calculate Grade" id="submitButton" />
             
         </form>
-        <input type="submit" value="Calculate Grade" id="submitButton" />
+        
         <!--THis is where i am outputting the letter grade and the GPA-->
         <p id="outputLet" class="outputLet"><br></p>
         <p id="outputNum" class="outputNum"><br></p>
